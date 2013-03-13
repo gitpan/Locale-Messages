@@ -1,0 +1,72 @@
+{
+   "abstract" : "handle all aspects of the localization process",
+   "author" : [
+      "Sullivan Beck <sbeck@cpan.org>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.3901, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Locale-Messages",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Test::Inter" : "0",
+            "lib" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.39"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Encode" : "0",
+            "File::Path" : "0",
+            "I18N::LangTags::Detect" : "0",
+            "IO::File" : "0",
+            "Locale::Country" : "0",
+            "Locale::Language" : "0",
+            "POSIX" : "0",
+            "Tk" : "0",
+            "Tk::ROText" : "0",
+            "perl" : "5.010000"
+         }
+      }
+   },
+   "provides" : {
+      "Locale::Messages" : {
+         "file" : "lib/Locale/Messages.pm",
+         "version" : "0.90"
+      },
+      "Locale::Messages::Sets::lm_gui" : {
+         "file" : "lib/Locale/Messages/Sets/lm_gui.pm",
+         "version" : 0
+      },
+      "Locale::Messages::Sets::lm_gui::en_US" : {
+         "file" : "lib/Locale/Messages/Sets/lm_gui/en_US.pm",
+         "version" : 0
+      },
+      "Locale::Messages::Sets::lm_gui::fr_FR" : {
+         "file" : "lib/Locale/Messages/Sets/lm_gui/fr_FR.pm",
+         "version" : 0
+      },
+      "Locale::Messages::lm" : {
+         "file" : "lib/Locale/Messages/lm.pm",
+         "version" : 0
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "0.90"
+}

@@ -1,0 +1,27 @@
+=====================================================================
+In the lm_gui app:
+=====================================================================
+
+Add support for a Copyright in the generated modules.
+
+In the <Add Message> view, add a <Cancel> button that takes you back
+to the main <Manage Set> view.
+
+Add a <Delete Message> button in the left pane.
+
+Make the <Message Description> multi-line.
+
+Make text boxes automatically sized correctly, and resizable.  ROText
+should not need scroll bars.
+
+Add error if a lexicon contains a message not in the description.
+
+=====================================================================
+In Locale::Messages
+=====================================================================
+
+Quant conditions/strings can be enclosed in brackets or single/double
+quotes.  If they do not contain whitespace, they do not need to be
+enclosed at all.
+
+Whitespace in quant strings is strictly honored (even in brackets).
